@@ -1,14 +1,8 @@
 import './App.css';
-import Signin from './pages/Signin'
-import Signup from './pages/Signup'
 
+import Navigate from './navigate';
 function App() {
-  return (
-    <div className="App">
-    {/* <Signin/> */}
-    <Signup/>
-    </div>
-  );
+  return <Navigate />
 }
 
 export default App;
