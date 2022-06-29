@@ -21,13 +21,13 @@ export default function Signup() {
         <form className='p-4 flex flex-col'>
               <h2 className='text-4xl font-bold text-center text-black mb-16'>Sign up</h2>
              <div className=' flex justify-between'>
-                  <button className='bg-white border-2 shadow-lg hover:shadow rounded-xl px-2  py-2 flex flex-col items-center '><AiFillFacebook className='mr-2 h-10 w-10'/>Sign up with Facebook</button>
+                  <button className='bg-white  shadow-md hover:shadow rounded-xl px-2  py-2 flex flex-col items-center '><AiFillFacebook className='mr-2 h-10 w-10'/>Sign up with Facebook</button>
 
-                  <button className='bg-white border-2  shadow-md hover:shadow rounded-xl px-2  py-2 flex flex-col items-center' ><FcGoogle className='mr-2 h-10 w-10'/>Sign up  with Google</button>
+                  <button className='bg-white   shadow-md hover:shadow rounded-xl px-2  py-2 flex flex-col items-center' ><FcGoogle className='mr-2 h-10 w-10'/>Sign up  with Google</button>
 
              </div>
              
-             
+            
              
                  <div className='flex flex-col pt-4 space-y-4'>
                    <input autoComplete='off' className=' rounded-xl boder p-2 mr-2  ' type="text" placeholder='Username' required />
@@ -35,7 +35,7 @@ export default function Signup() {
 
                    <input   autoComplete='off' className='rounded-xl boder p-2 mr-2 ' type="password" placeholder='password' required  />
 
-                   <p className='justify-start' ><input type='checkbox'/>Remember me</p>
+                  
                  </div>
                  <button  type="submit" className='bg-blue-700 hover:bg-blue-800 self-center h-[40px] w-[100px] my-4 rounded-xl text-slate-50'>Sign up</button>
         </form>

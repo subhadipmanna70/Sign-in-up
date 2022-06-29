@@ -21,9 +21,9 @@ export default function Signin() {
          <form className='p-4 flex flex-col'>
                <h2 className='text-4xl font-bold text-center text-black mb-16'>Sign In</h2>
               <div className=' flex justify-between'>
-                   <button className='bg-white border-2 border-black shadow-lg hover:shadow rounded-xl px-2  py-2 flex flex-col items-center '><AiFillFacebook className='mr-2 h-10 w-10'/>Sign in with Facebook</button>
+                   <button className='bg-white  shadow-lg hover:shadow rounded-xl px-2  py-2 flex flex-col items-center '><AiFillFacebook className='mr-2 h-10 w-10'/>Sign in with Facebook</button>
 
-                   <button className='bg-white border-2 border-black shadow-lg hover:shadow rounded-xl px-2  py-2 flex flex-col items-center' ><FcGoogle className='mr-2 h-10 w-10'/>Sign in  with Google</button>
+                   <button className='bg-white   shadow-lg hover:shadow rounded-xl px-2  py-2 flex flex-col items-center' ><FcGoogle className='mr-2 h-10 w-10'/>Sign in  with Google</button>
 
               </div>
               
@@ -37,7 +37,7 @@ export default function Signin() {
                   <button type="submit" className='bg-blue-700 hover:bg-blue-800 self-center h-[40px] w-[100px] my-4 rounded-xl text-slate-50'>Sign In</button>
                   
                   <p className='text-center'>Forgot Username or Password?</p>
-                  <p>Not a member? Sign Up</p>
+                  <p className='flex flex-row justify-left'>Not a member? </p> <a href='/signup'><p className='text-blue-900 px-40 font-bold'>Sign Up</p></a>
          </form>
          
 
