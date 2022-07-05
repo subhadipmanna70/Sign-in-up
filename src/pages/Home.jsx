@@ -15,11 +15,11 @@ return(
             IEMAIWriter<span className="text-indigo-600">.</span>
           </span>
         <div className="relative flex flex-col md:flex-row items-center">
-          <nav className="flex flex-wrap items-center pt-2 pb-5 text-base border-b border-gray-200 md:pt-0 md:mb-0 md:border-b-0 md:pr-3 md:mr-3 md:border-r md:pb-0">
-              Home
-              Faq
-              Pricing
-              Features
+          <nav className="flex space-x-4 ">
+              <div>Home</div>
+              <div>Faq</div>  
+              <div>Pricing</div> 
+              <div>Features</div>
           </nav>
           <div className="inline-flex items-center justify-center ml-5 space-x-4 md:space-x-10 md:justify-end">
               <Link to="signin">Sign in</Link>
